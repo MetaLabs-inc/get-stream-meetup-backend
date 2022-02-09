@@ -1,2 +1,1 @@
-# get-stream-meetup-backend
-GetStream Meetup Backend
+# GetStream Meetup Backend
