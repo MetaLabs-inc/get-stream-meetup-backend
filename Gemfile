@@ -4,8 +4,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.0.1'
 
 gem 'rails', '~> 6.1.4', '>= 6.1.4.4'
+
+gem 'bcrypt', '~> 3.1', '>= 3.1.16'
+gem 'blueprinter', '~> 0.25.3'
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
+gem 'stream-chat-ruby', '~> 2.21'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 
